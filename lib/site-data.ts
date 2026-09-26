@@ -1,4 +1,4 @@
-﻿// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
 // Centralized, editable content for Coorg North Breeze.
 // Edit values here to update the whole site. No fabricated facts â€” placeholder
 // fields are clearly marked and safe to replace with real information.
@@ -42,25 +42,34 @@ export type Room = {
   details: string[]
 }
 
-// Room names/features are editable placeholders â€” replace with actual details.
+// Room & space details
 export const rooms: Room[] = [
   {
-    id: 'room-01',
-    label: 'Room 01',
-    name: 'Garden View Room',
-    image: '/images/room-1.png',
+    id: 'bed-room',
+    label: 'Bedroom',
+    name: 'Master Bedroom',
+    image: '/images/bed room.jpg',
     description:
-      'A warm wood-framed room with a pitched timber ceiling, opening to soft green views through the windows.',
-    details: ['Double bed', 'Garden-facing windows', 'Ceiling fan', 'Attached bathroom'],
+      'A calm and comfortable bedroom with warm wood finishes, plush bedding, and restful natural light.',
+    details: ['Double bed', 'Air conditioning', 'Large windows', 'Attached bathroom'],
   },
   {
-    id: 'room-02',
-    label: 'Room 02',
-    name: 'Corner Light Room',
-    image: '/images/room-2.png',
+    id: 'living-area-1',
+    label: 'Living Space',
+    name: 'Living Area',
+    image: '/images/living area 1.jpg',
     description:
-      'A bright corner room wrapped in natural light, with a simple work desk and calm, airy surroundings.',
-    details: ['Double bed', 'Corner windows', 'Work desk', 'Attached bathroom'],
+      'A spacious, open-plan living room designed for relaxed conversations, gatherings, and leisurely afternoons.',
+    details: ['Comfortable sofas', 'Open layout', 'Natural light', 'Scenic views'],
+  },
+  {
+    id: 'living-area-2',
+    label: 'Lounge',
+    name: 'Lounge & Seating',
+    image: '/images/living area 2.jpg',
+    description:
+      'A sunlit lounge corner with cozy seating and warm interiors, ideal for slow mornings and quiet downtime.',
+    details: ['Cozy seating', 'Garden views', 'Warm lighting', 'Relaxing ambiance'],
   },
 ]
 
