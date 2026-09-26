@@ -136,34 +136,34 @@ export type GalleryImage = {
 
 export const gallery: GalleryImage[] = [
   {
-    src: '/Gallery/road view.png',
-    alt: 'Road view',
-    category: 'Views',
-  },
-  {
-    src: '/Gallery/balcony.png',
-    alt: 'Balcony',
+    src: '/Gallery/overview.jpg',
+    alt: 'Property Overview',
     category: 'Property',
   },
   {
-    src: '/Gallery/Pent House.png',
-    alt: 'Pent House',
+    src: '/Gallery/pool.jpg',
+    alt: 'Swimming Pool',
     category: 'Property',
   },
   {
-    src: '/Gallery/Real night view.png',
-    alt: 'Real night view',
+    src: '/Gallery/projector.jpg',
+    alt: 'Outdoor Projector Setup',
+    category: 'Property',
+  },
+  {
+    src: '/Gallery/playarea.jpg',
+    alt: 'Open Lawn & Play Area',
+    category: 'Nature',
+  },
+  {
+    src: '/Gallery/nightview.jpg',
+    alt: 'Night Ambiance',
     category: 'Views',
   },
   {
-    src: '/Gallery/hall.png',
-    alt: 'Hall',
-    category: 'Rooms',
-  },
-  {
-    src: '/Gallery/window view.png',
-    alt: 'Window view',
-    category: 'Rooms',
+    src: '/Gallery/view.jpg',
+    alt: 'Scenic Farmstay View',
+    category: 'Views',
   },
 ]
 

@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
@@ -79,7 +79,7 @@ export function GalleryPreview() {
               viewport={{ once: true, margin: '0px' }}
               transition={{ duration: 0.5, ease: EASE, delay: i * 0.03 }}
             >
-              {/* Special Attraction Badge for Road View (Index 0) */}
+              {/* Featured Badge for Overview (Index 0) */}
               {i === 0 && (
                 <div className="absolute top-2.5 left-2.5 sm:top-3.5 sm:left-3.5 z-30 pointer-events-none">
                   <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full bg-black/60 backdrop-blur-md border border-white/25 text-white shadow-xl">
@@ -87,7 +87,7 @@ export function GalleryPreview() {
                       <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75" />
                       <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-400" />
                     </span>
-                    <span className="text-[9px] sm:text-[11px] uppercase tracking-widest font-semibold">Special Attraction</span>
+                    <span className="text-[9px] sm:text-[11px] uppercase tracking-widest font-semibold">Featured Highlight</span>
                   </div>
                 </div>
               )}
