@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useRef } from 'react'
 import { motion, useReducedMotion, useScroll, useTransform } from 'motion/react'
@@ -52,18 +52,18 @@ export function Hero() {
 
           <div className="flex flex-wrap items-baseline gap-2 sm:gap-3">
             <span className="font-serif italic text-lg sm:text-xl lg:text-2xl text-amber-200/95 tracking-wide drop-shadow-sm">
-              Coorg North Breeze Homestay
+              Auroville Farmstay
             </span>
             <span className="text-soft/40 font-light hidden sm:inline">&mdash;</span>
             <span className="eyebrow text-soft/75 text-[0.6875rem] sm:text-[0.75rem] uppercase tracking-[0.24em] font-medium">
-              {site.location}
+              Moinabad, Hyderabad
             </span>
           </div>
         </motion.div>
 
         <h1 className="mt-2 max-w-4xl font-display text-[3.25rem] leading-[0.95] text-soft sm:text-7xl lg:text-8xl">
-          <Line delay={0.45}>Wake to the</Line>
-          <Line delay={0.58}>hills of Coorg.</Line>
+          <Line delay={0.45}>A peaceful escape</Line>
+          <Line delay={0.58}>in the countryside.</Line>
         </h1>
 
         <motion.div

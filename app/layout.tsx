@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'Coorg North Breeze',
-    images: [{ url: '/images/property-exterior.png' }],
+    images: [{ url: '/images/property.png' }],
   },
 }
 
